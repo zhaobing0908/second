@@ -1,0 +1,438 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "微软雅黑";
+}
+
+.header {
+    padding-top: 10px;
+    height: 160px;
+    width: 100%;
+    background-image: url(images/header-bg.jpg);
+    background-repeat: repeat-x;
+}
+
+.header-content {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.header-content p {
+    width: 180px;
+    height: 26px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-image: url(images/telephone.png);
+    background-repeat: no-repeat;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.header-content .telephone {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.logo {
+
+    float: left;
+    margin-top: 26px;
+}
+.logo a{
+    display:block ;
+    width: 180px;
+    height: 98px;
+    text-decoration: none;
+}
+.logo a img{
+    border: none;
+}
+
+.nav {
+    float: left;
+
+
+
+}
+
+.header-content .nav ul li {
+   font-family: "微软雅黑";
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 68px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-content .nav ul .bg-y{
+    color: #f8f5c6;
+
+
+}
+
+.nav ul {
+    padding: 0;
+    width: 400px;
+    height: 100px;
+    font-family: "微软雅黑";
+}
+.header-content .nav ul li:hover {
+    background-image: url(images/home.PNG);
+    background-repeat:repeat ;
+
+}
+
+.main{
+    width: 100%;
+    height: 1162px;
+    background-image: url(images/content-bg.jpg);
+    background-repeat: repeat;
+}
+.search-box{
+    width: 428px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -210px; ;
+    top: -35px;
+    border-top: 1px solid #1a876d;
+    border-right: none;
+    border-radius: 5px;
+    background-image: url(images/search-bg.jpg);
+}
+.search-box .search{
+    width: 328px;
+    height: 22px;
+    padding: 2px 0 0 0 ;
+    border: 1px solid #aca856;
+    border-right: none;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+/*.search-box div{
+    width: 80px;
+    height: 24px;
+    float: right;
+    margin-right: 9px;
+    background-image: linear-gradient(to bottom,#fff0ed,#fe6d4d);
+    margin-top: 8px;
+    border: 1px solid #e8360f;
+}*/
+
+
+.search-box .s_btn{
+    width: 84PX ;
+    height : 26px;
+    position: absolute;
+    top: 0px;
+    left: 336px;
+
+    border: 1px solid #e8360f;
+    background: linear-gradient(to bottom,#fff0ed,#fe6d4d);
+    margin-top: 8px;
+    margin-right: 8px;
+    color: #901b02;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: left;
+
+}
+.search-box i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 14px;
+    left: 398px;
+}
+.search-box i img{
+    width: 20px;
+    height: 20px;
+}
+
+.main-content{
+    width: 970px;
+    margin: 0 auto;
+    height: 1350px;
+    position: relative;
+
+}
+
+.main-content-top{
+
+    width: 970px;
+    margin: 0 auto;
+    height: 350px;
+    padding:20px 0;
+    position: relative;
+
+}
+
+.main-content-top .big {
+    width: 950px;
+    height: 338px;
+    padding: 5px 6px 5px 6px;
+    background: white;
+    border-radius: 8px;
+
+    border: 5px solid #ebe8b0;
+
+}
+.content-bottom-left{
+    margin-top: 10px;
+    width: 240px;
+    height: 760px;
+    float: left;
+}
+.content-bottom-left .menu-top{
+    width: 230px;
+    height: 350px;
+    border: 5px solid #ebe8b0;
+    border-radius: 5px;
+    position: relative;
+
+}
+.menu-top .box{
+    width: 228px;
+    height: 348px;
+    background: white;
+    border: 1px solid #d2cf99;
+    border-radius: 5px;
+
+
+}
+.menu-top .box ul{
+    width: 160px;
+    height: 260px;
+    margin:60px auto;
+    padding: 0;
+
+
+
+
+
+}
+.menu-top .box ul li{
+    list-style: none;
+    width: 162px;
+    height: 18px;
+    border-bottom: 1px solid #707070;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 22px;
+    color: #7c7c7c;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+.menu-top .box ul li:hover{
+    color:#f26344;
+}
+
+
+
+.menu-top h3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    width: 231px;
+    height: 30px;
+    background-image: url(images/h3.jpg);
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: -2px;
+
+}
+.h3-l{
+    position: absolute;
+    top: 0px;
+    left: -37px;
+
+}
+.content-right{
+    width: 708px;
+    height: 708px;
+    margin: 10px 0 0 6px;
+    float: right;
+    border: 5px solid #ebe8b0;
+    border-radius: 12px;
+}
+.content-right .map-box{
+    width: 706px;
+    height: 706px;
+    border: 1px solid #d5d29c;
+    border-radius: 10px;
+    background: white;
+}
+.content-right div .map{
+    width: 612px;
+    height: 376px;
+    margin: 70px 47px 0 47px;
+}
+
+
+
+
+
+
+
+._content-bottom{
+    font-size: 16px;
+    color: #f3f1c4;
+    font-weight: bold;
+    margin-left: 47px;
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+._content-bottom .phone,._content-bottom .email,._content-bottom .add{
+    font-size: 16px;
+    color: #cfcfcf;
+}
+._content-bottom .phone span{
+    margin-left: 40px;
+}
+.email,.add{
+    height: 30px;
+    margin: 0;
+    padding: 0;
+
+
+}
+._content-bottom .phone{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 270px;
+    background-image: url(images/bg-bottom.jpg);
+    background-repeat: repeat-x;
+}
+.footer-content{
+    width: 970px;
+    height: 270px;
+    margin: 0 auto;
+}
+.footer-content-left,.footer-content-right{
+    width: 300px;
+    height: 210px;
+    float: left;
+    margin-top: 50px;
+
+}
+.footer-content-right{
+    margin-left: 210px;
+}
+.footer-content-left .title,.footer-content-right .title{
+    font-size: 14px;
+    color: #f3f1c4;
+    font-weight: bold;
+}
+.details{
+    font-size: 12px;
+    color: #cfcfcf;
+
+}
+.last-p{
+    margin-top: 80px;
+    color: #cfcfcf;
+
+}
+.footer-content-right .phone,.footer-content-right .email,.footer-content-right .add{
+    font-size: 12px;
+    color: #cfcfcf;
+}
+.footer-content-right .phone span{
+    margin-left: 40px;
+}
+.email,.add{
+    margin: 0;
+    padding: 0;
+
+
+}
+.footer-content-right .phone{
+    margin-bottom: 5px;
+}
+
+
+
+
